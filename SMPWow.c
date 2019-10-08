@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+
 int main()
 {
     int i;
@@ -6,9 +8,10 @@ int main()
     printf("W");
     while(i!=0)
     {
-        printf("o");
+        printf("O");
         i--;
     }
-    printf("w");
+    printf("W/n");
+    printf("This is awesome");
     return 0;
 }
